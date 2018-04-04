@@ -1,0 +1,291 @@
+body {
+  background-color: lemonchiffon;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: lavender;
+  margin: 30px auto;
+  position: relative;
+}
+
+.table {
+	width: 600px;
+	height: 50px;
+	background: lightgrey;
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	z-index: 2
+}
+
+.table-leg-1 {
+	width: 25px;
+	height: 190px;
+	background: grey;
+	position: absolute;
+	top: 68%;
+	left: 23%;
+	z-index: 1
+}
+
+.table-leg-2 {
+	width: 25px;
+	height: 190px;
+	background: grey;
+	position: absolute;
+	top: 68%;
+	left: 75%;
+	z-index: 1
+}
+
+.book-one {
+	width: 250px;
+	height: 50px;
+	background: black;
+	position: absolute;
+	top: 51.5%;
+	left: 25%;
+}
+
+.book-two {
+	width: 200px;
+	height: 40px;
+	background: bisque;
+	position: absolute;
+	top: 45%;
+	left: 32%;
+}
+
+.book-three {
+	width: 200px;
+	height: 25px;
+	background: burlywood;
+	position: absolute;
+	top: 41%;
+	left: 28%;
+}
+
+.top-vase {
+	width: 88px;
+	height: 35px;
+	background: none;
+	border-style: solid;
+	border-color: lightblue;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 25%;
+	left: 55%;
+	z-index: 2;
+}
+
+.side-vase-1 {
+	width: 3px;
+	height: 200px;
+	background: lightblue;
+	position: absolute;
+	top: 29%;
+	left: 55%;
+}
+
+.side-vase-2 {
+	width: 3px;
+	height: 200px;
+	background: lightblue;
+	position: absolute;
+	top: 29%;
+	left: 64%;
+}
+
+.flower-stem-1 {
+	width: 8px;
+	height: 190px;
+	background: green;
+	position: absolute;
+	top: 29%;
+	left: 59%;
+	transform: rotate(20deg);
+	z-index: 1;
+}
+
+.flower-stem-2 {
+	width: 8px;
+	height: 50px;
+	background: green;
+	position: absolute;
+	top: 22.25%;
+	left: 63%;
+	transform: rotate(20deg);
+	z-index: 3;
+}
+
+.flower-bud {
+	display:block;
+   width: 30px;
+   height: 40px;
+   background-color: lemonchiffon;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+   transform: rotate(20deg);
+   position: absolute;
+   top: 16%;
+   left: 63.5%;
+}
+
+.flower-bud-2 {
+	display:block;
+   width: 20px;
+   height: 45px;
+   background-color: pink;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+   transform: rotate(-5deg);
+   position: absolute;
+   top: 15%;
+   left: 63%;
+   z-index: 4;
+}
+
+.flower-bud-3 {
+	display:block;
+   width: 20px;
+   height: 45px;
+   background-color: pink;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+   transform: rotate(40deg);
+   position: absolute;
+   top: 16%;
+   left: 65%;
+   z-index: 4;
+}
+
+.pineapple {
+	width: 150px;
+	height: 100px;
+	background: gold;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 44%;
+	left: 52%;
+	z-index: 5;
+}
+
+.pineapple-top {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 125px solid green;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 50%;
+	left: 65%;
+}
+
+.pineapple-top-2 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 50px solid green;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: rotate(-20deg);
+	z-index: 6;
+}
+
+.pineapple-top-3 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 50px solid green;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 50%;
+	left: 66%;
+	transform: rotate(-30deg);
+	z-index: 4;
+}
+
+.pineapple-top-4 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 50px solid green;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 54%;
+	left: 66%;
+	transform: rotate(30deg);
+	z-index: 4;
+}
+
+.pineapple-top-5 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 50px solid green;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	top: 53%;
+	left: 70%;
+	transform: rotate(20deg);
+	z-index: 6;
+}
+
+.pear-1 {
+	display:block;
+   width: 60px;
+   height: 70px;
+   background-color: peru;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+   position: absolute;
+   top: 50%;
+   left: 53%;
+	z-index: 7;
+}
+
+.pear-2 {
+	width: 60px;
+	height: 60px;
+	background: peru;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 51%;
+	left: 60%;
+	z-index: 7;
+}
+
+.pear-stem {
+	width: 5px;
+	height: 15px;
+	background: black;
+	position: absolute;
+	top: 48%;
+	left: 55.5%;
+	z-index: 6;
+	transform: rotate(-15deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
